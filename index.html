@@ -13,9 +13,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+  <!-- FONT COMMENTED OUT FOR PAGE LOAD TIME
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -33,20 +33,26 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class='four columns'>
-      some junk text
-      some junk text
-      some junk text
-      some junk text
-      <img src='images/logo.png' class='logo'>
-    </div>
-    <div class='eight columns'>
-      here is some more junk text
-      here is some more junk text
-      here is some more junk text
-      here is some more junk text
-      here is some more junk text
-    </div>
+    <header class='row'>
+      <div class='four columns'>
+        <img src='images/logo.png' class='logo'>
+      </div>
+      <div class='eight columns'>
+        <ul class='u-pull-right'>
+          <li class='navItem'>Link One</li>
+          <li class='navItem'>Link Two</li>
+          <li class='navItem'>Link Three</li>
+        </ul>
+      </div>
+    </header>
+    <main class='row'>
+      <div class='one-half column'>
+        Some text here
+      </div>
+      <div class='one-half column'>
+        Some text here too
+      </div>
+    </main>
   </div>
 
 <!-- End Document
